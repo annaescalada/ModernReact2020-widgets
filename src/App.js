@@ -41,7 +41,7 @@ export default () => {
 
     return <div className="ui container">
         <Header/>
-        <Route path="/">
+        <Route path="/accordion">
             <Accordion items={items}/>
         </Route>
         <Route path="/list">
